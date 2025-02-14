@@ -3,6 +3,7 @@
   --building-color2: #66cc99;
   --building-color3: #cc6699;
   --building-color4: #538cc6;
+  --window-color1: black;
 }
 
 * {
@@ -22,8 +23,11 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  position: absolute;
+  top: 0;
 }
 
+/* BACKGROUND BUILDING - "bb" stands for background building */
 .bb1 {
   width: 10%;
   height: 70%;
